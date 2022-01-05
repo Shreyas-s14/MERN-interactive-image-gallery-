@@ -1,0 +1,122 @@
+.Email{
+    width: 40%;
+    height: 60px;
+    border-radius: 5px;
+    color: #fff;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    /* left: 20%; */
+    margin-left: 30%;
+    margin-top: 25%;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'lobster';
+    /* position: absolute; */
+    
+}
+.Password{
+    width: 40%;
+    height: 60px;
+    border-radius: 5px;
+    color: #fff;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    /* left: 20%; */
+    margin-left: 30%;
+    
+    background-color: transparent;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'lobster';
+    /* position: absolute; */
+}
+
+.lgnbtn{
+    /* padding: 1% 11.2%; */
+    margin-left: 30%;
+    width: 42.7%;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    /* text-align: left; */
+    font-family: 'lobster';
+    font-size: 2em;
+    z-index: 999;
+}
+.lgnbtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 250ms;
+}
+input[type="text"][value="Email"] {
+    color:white
+ }
+ .box{
+    width:1000px;
+    height:750px;
+    border:1px solid rgb(255, 255, 255);
+    position: absolute;
+    top:10%;
+    left: 16%;
+
+    
+    z-index: 1;
+ }
+  .login{
+     background-color: rgba(0, 0, 0, 0.8);
+     width: 1000px;
+     height: 750px;
+     top: 20%;
+     left: 30%;
+     margin-left: 16%;
+     border-radius: 20px;
+     
+ } 
+ .lg-text{
+     color: rgb(255, 255, 255);
+     position: absolute;
+     top: 15%;
+     left: 46%;
+     font-family: "Lobster";
+     font-size: 3em;
+     /* text-decoration: underline; */
+ }
+ .smoltext{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        font-family: "Lobster";
+        font-size: 1.5em;
+        /* text-decoration: underline; */
+ }
+ .linkb{
+    color: #00bc00;
+    position: absolute;
+    top: 72.6%;
+    left: 54.5%;
+    font-family: "Lobster";
+    font-size: 1.5em;
+     text-decoration:none; 
+ }
+ .linkb:hover{
+    border-bottom: 2px solid #fff;
+    /* bottom: 0px;
+    padding-bottom: -10px;
+    border-radius: 1px; */
+    transition: all 0.2s ease-out;
+ }
+ .Password::placeholder{
+    color:white
+ }
+ .Email::placeholder{
+    color:white
+ }

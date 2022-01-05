@@ -1,0 +1,21 @@
+progress {
+     border-radius: 7px;  
+     margin-top: 4%;
+    width: 40%;
+    height: 30px;
+    margin-left: 29%;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+  progress::-webkit-progress-bar {
+    background-color: transparent;
+     border-radius: 7px; 
+    border:2px solid rgb(255, 255, 255);
+  }
+  progress::-webkit-progress-value {
+    background-color: #bb1277;
+     /* border-radius: 7px;  */
+    /* box-shadow: 1px 1px 5px 3px rgba(245, 245, 245, 0.8); */
+  }
+  /* progress::-moz-progress-bar {
+    style rules 
+  } */

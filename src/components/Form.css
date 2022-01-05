@@ -1,0 +1,119 @@
+.Email1{
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    /* left: 20%; */
+    margin-left: 34%;
+    margin-top: 17%;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'lobster';
+    /* position: absolute; */
+    
+}
+.Password1{
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    /* left: 20%; */
+    margin-left: 34%;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'lobster';
+    /* position: absolute; */
+}
+
+.lgnbtn1{
+    /* padding: 1% 11.2%; */
+    margin-left: 34%;
+    width: 32.5%;
+    height: 63px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    /* text-align: left; */
+    font-family: 'lobster';
+    font-size: 1.6em;
+    z-index: 999;
+}
+.lgnbtn1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 250ms;
+}
+.Password1::placeholder{
+    color:white
+ }
+ .Email1::placeholder{
+    color:white
+ }
+ .box{
+    width:1000px;
+    height:750px;
+    border:1px solid rgb(255, 255, 255);
+    position: absolute;
+    top:10%;
+    left: 16%;
+
+    
+    z-index: 1;
+ }
+  .register{
+     background-color: rgba(0, 0, 0, 0.8);
+     width: 1000px;
+     height: 750px;
+     top: 25%;
+     left: 30%;
+     margin-top: 1.5%;
+     margin-left: 18%;
+     border-radius: 20px;
+     
+ } 
+ .lg-text1{
+     color: rgb(255, 255, 255);
+     position: absolute;
+     top: 15%;
+     left: 46%;
+     font-family: "Lobster";
+     font-size: 3em;
+     /* text-decoration: underline; */
+ }
+ .smoltext1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 78%;
+    left: 41.5%;
+    font-family: "Lobster";
+    font-size: 1.5em;
+    /* text-decoration: underline; */
+}
+.linkb1{
+color: #007f97;
+position: absolute;
+top: 80.7%;
+left: 56.5%;
+font-family: "Lobster";
+font-size: 1.5em;
+ text-decoration:none; 
+}
+.linkb1:hover{
+border-bottom: 2px solid #fff;
+/* bottom: 0px;
+padding-bottom: -10px;
+border-radius: 1px; */
+transition: all 0.2s ease-out;
+}

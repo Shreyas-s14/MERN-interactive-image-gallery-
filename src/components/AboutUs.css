@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+/* *{
+    font-family: "Arimo";
+} */
+
+.abt-text
+{
+    font-size: 12rem;
+    color: #fff;
+    text-align: center;
+    top: 30rem;
+    /* left: 31rem; */
+    margin-top: 13rem;
+    text-decoration: underline;
+    font-family: 'lobster';
+    z-index: 100;
+
+}
+.intro{
+    color: white;
+    margin-top: 25%;
+    font-size: 2rem;
+    margin-left: 2.5%;
+    margin-right: 1%;
+    font-family: 'Arimo';
+}
+.head1{
+    position: relative;
+    color:#00ccf9;
+    text-decoration: none;
+    font-size: 4em;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: "lobster";
+    transition: all 0.2s ease-in;
+    
+}
+.head1:hover{
+    color: white;
+    /* bottom: 0px;
+    padding-bottom: -10px;
+    border-radius: 1px; */
+    transition: all 0.2s ease-out;
+}
+.glry
+{
+    color: white;
+    position: absolute;
+    font-size: 2em;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 55%;
+    text-align:left;
+    font-family: 'Arimo';
+}
+.imgabt1{
+    height: 46%;
+    /* width: 35%; */
+    position: absolute;
+    left: 52%;
+    top: 142%;
+    border-radius: 10px;
+    transition: all 0.15s ease-in; 
+}
+.imgabt1:hover{
+    transform :scale(1.05) ;
+    transition: all 0.15s ease-out; 
+}
+.head2{
+    position: relative;
+    color:#00ccf9;
+    text-decoration: none;
+    font-size: 4em;
+    margin-left: 0%;
+    margin-top: 50%;
+    font-family: "lobster";
+    transition: all 0.2s ease-in; 
+    
+}
+.upld
+{
+    color: white;
+    position: absolute;
+    font-size: 2em;
+    margin-top: 55%;
+    margin-left: 52%;
+    margin-right: 6%;
+    text-align:center;
+    font-family: 'Arimo';
+}
+.imgabt2{
+    height: 100%;
+    /* width: 100%; */
+    position: absolute;
+    left: -118%;
+    top: 2%;
+    border-radius: 10px;
+    transition: all 0.15s ease-in; 
+}
+.imgabt2:hover{
+    transform :scale(1.05) ;
+    transition: all 0.15s ease-out; 
+}
+.head2:hover{
+   color:white;
+  /* bottom: 0px;
+  padding-bottom: -10px;
+  border-radius: 1px; */
+  transition: all 0.2s ease-out; 
+}
+
+.dashbda
+{
+    color: white;
+    position: absolute;
+    font-size: 2em;
+    margin-top:100%;
+    margin-left: 5%;
+    margin-right: 55%;
+    margin-bottom: 10%;
+    text-align:left;
+    font-family: 'Arimo';
+}
+.head3{
+    position: relative;
+    color:#00ccf9;
+    text-decoration: none;
+    font-size: 4em;
+    margin-left: 0%;
+    margin-top: 50%;
+    font-family: "lobster";
+    transition: all 0.2s ease-in;
+    
+}
+.head3:hover{
+    color:white;
+  /* bottom: 0px;
+  padding-bottom: -10px;
+  border-radius: 1px; */
+  transition: all 0.2s ease-out;
+}
+.imgabt3{
+    height: 46%;
+    /* width: 100%; */
+    position: absolute;
+    left: 52%;
+    top: 300%;
+    border-radius: 10px;
+    transition: all 0.15s ease-in; 
+    margin-bottom: 30%;
+}
+.imgabt3:hover{
+    transform :scale(1.05) ;
+    transition: all 0.15s ease-out; 
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+/*epic*/
+body{
+    background:black ;
+}
+.video
+{
+    object-fit: cover;
+    position: absolute;
+    top : 0;
+    left : 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+.header{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    font-family: 'lobster';
+     transform: translate(50%, 50%); 
+    color: rgb(255, 255, 255);
+    
+    font-size: 12rem;
+    text-align: center;
+    /* underline */
+    text-decoration: underline;
+    z-index: 100;
+} 
+.line{
+    position: absolute;
+    /* background: rgb(255, 255, 255); */
+    top: 110%;
+    left: 0%;
+    font-family: 'Bebas Neue';
+     /* transform: translate(50%, 50%);  */
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    text-align: center;
+    /* underline */
+    /* text-decoration: underline; */
+    z-index: -1;
+}
+ .fileup{
+    
+    z-index: -1;
+    font-size: 20px;    
+    color: white;
+
+} 
+
+input[type="file"] {
+     visibility: hidden;
+}
+.Filebtn {
+    border: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 85rem;
+    margin-left: 29rem;
+    padding: 4rem 5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    
+    
+    text-align: center;
+}
+.text{
+    position: absolute;
+    top: 174%;
+    left: 42%;
+    font-size: 6rem;
+    font-family: 'Bebas Neue';
+    /* color: rgb(255, 255, 255); */
+    
+    text-align: center;
+}
+
+.Filebtn:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+ 
